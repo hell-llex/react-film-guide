@@ -12,7 +12,7 @@ function App() {
           element={<Navigate to={`/react-film-guide/popular`} replace />}
         />
         <Route
-          path="/react-film-guide"
+          path="/react-film-guide/"
           element={<Navigate to={`/react-film-guide/popular`} replace />}
         />
         <Route
