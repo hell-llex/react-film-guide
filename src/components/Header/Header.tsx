@@ -8,7 +8,7 @@ const Header = ({ mainPage }: { mainPage: boolean }) => {
   return (
     <>
       <div className="header">
-        <a href="/" className="logo">
+        <a href="/react-film-guide/" className="logo">
           Film Guide
         </a>
         {mainPage && (<nav className="nav">
