@@ -7,7 +7,7 @@ const baseUrl = "https://image.tmdb.org/t/p/";
 const imageSize = "w500";
 
 const FilmsItem = ({ item }: { item: Movie }) => {
-  const [itemCard, setItemCard] = useState<Movie>(item)
+  const [itemCard] = useState<Movie>(item)
 
   return (
     <>
