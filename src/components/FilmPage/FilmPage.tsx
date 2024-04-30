@@ -52,7 +52,7 @@ const FilmPage = () => {
       <div className="wrapper">
         <Header mainPage={false} />
         <div className="film-page">
-          {!movieInfo ? (<span className="film-page__loading">Loading{dots}</span>) :
+          {!movieInfo ? (<span className="loading">Loading{dots}</span>) :
             (<>
               <div className="film-page__title-container">
                 <div className="film-page__title-info">
